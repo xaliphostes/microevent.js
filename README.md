@@ -1,6 +1,6 @@
 
 
-# MicroEvent.js in ES6+
+# MicroEvent in ES6+
 Refactor of [MicroEvent](https://github.com/jeromeetienne/microevent.js) in JavaScript for ES6+
 
 ## Usage
