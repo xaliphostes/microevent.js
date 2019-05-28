@@ -33,7 +33,6 @@ class MicroEvent {
      * mixin will delegate all MicroEvent.js function in the destination object
      * - require('MicroEvent').mixin(Foobar) will make Foobar able to use MicroEvent
      * @param {Object} the object which will support MicroEvent
-     * @see MicroEventDecorator in ../decorators/MicroEventDecorator
      */
     static mixin(destObject) {
         const props	= ['bind', 'unbind', 'trigger']
