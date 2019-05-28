@@ -2,7 +2,7 @@
  * @author https://github.com/jeromeetienne/microevent.js
  * For implementation
  * @author fmaerten
- * (just For ES6 port)
+ * (just For ES6+ port)
  * @see MicroEventDecorator in ../decorators/MicroEventDecorator
  */
 
