@@ -45,7 +45,7 @@ class MicroEvent {
         const props	= ['bind', 'unbind', 'trigger']
         props.forEach( prop => {
             if( typeof destObject === 'function' ) {
-                destObject.prototype[prop]	= MicroEvent.prototype[prop]
+                destObject.prototype[prop] = MicroEvent.prototype[prop]
             } else {
                 destObject[prop] = MicroEvent.prototype[prop]
             }
