@@ -24,7 +24,7 @@ See [this page](https://github.com/jeromeetienne/microevent.js)
  })
   
  // And you will see this output every second:
- //   notified date Tue, 22 Mar 2011 14:43:41 GMT
- //   notified date Tue, 22 Mar 2011 14:43:42 GMT
+ //   notified date Tue, 22 Mar 2019 14:43:41 GMT
+ //   notified date Tue, 22 Mar 2019 14:43:42 GMT
  //   ...
 ```
