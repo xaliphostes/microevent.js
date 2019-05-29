@@ -30,8 +30,10 @@ class MicroEvent {
     }
 
     /**
-     * mixin will delegate all MicroEvent.js function in the destination object
-     * - require('MicroEvent').mixin(Foobar) will make Foobar able to use MicroEvent
+     * mixin will delegate all MicroEvent.js function in the destination object.
+     * This following code will make Foobar able to use MicroEvent
+     * @example
+     *   MicroEvent.mixin(Foobar)
      * @param {Object} the object which will support MicroEvent
      */
     static mixin(destObject) {
