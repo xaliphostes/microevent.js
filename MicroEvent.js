@@ -33,7 +33,12 @@ class MicroEvent {
      * mixin will delegate all MicroEvent.js function in the destination object.
      * This following code will make Foobar able to use MicroEvent
      * @example
-     *   MicroEvent.mixin(Foobar)
+     *  class Foobar {
+     *    constructor() {
+     *      this.toto = 3.1415
+     *    }
+     *  }
+     *  MicroEvent.mixin(Foobar)
      * @param {Object} the object which will support MicroEvent
      */
     static mixin(destObject) {
