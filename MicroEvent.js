@@ -8,7 +8,7 @@
 
 class MicroEvent {
     constructor() {
-        this._events = {}
+        this._events = []
     }
     bind(event, fct) {
         this._events[event] = this._events[event] || []
@@ -26,7 +26,8 @@ class MicroEvent {
         if (event in this._events === false) {
             return
         }
-        this._events.forEach( e => e.apply(this, Array.prototype.slice.call(arguments, 1)) )
+        const event_ = this._events[event]
+        event_.forEach( e => e.apply(this, Array.prototype.slice.call(arguments, 1)) )
     }
 
     /**
