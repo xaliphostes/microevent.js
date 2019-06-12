@@ -11,9 +11,11 @@ See [this page](https://github.com/jeromeetienne/microevent.js)
  import MicroEvent from 'MicroEvent'
  
  class Ticker {
-     setInterval() {
-         this.trigger( 'tick', new Date() )
-     }, 1000)
+     constructor() {
+         setInterval( () => {
+             this.trigger( 'tick', new Date() )
+         }, 1000)
+     }
  }
  MicroEvent.mixin(Ticker)
  
